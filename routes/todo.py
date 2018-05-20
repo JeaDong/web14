@@ -55,3 +55,4 @@ def delete(todo_id):
     # 因为我们就在 todo 这个蓝图里面, 所以可以省略 todo
     # return redirect(url_for('todo.index'))
     return redirect(url_for('.index'))
+
